@@ -10,3 +10,33 @@
 @media(max-width:600px){.native-dialog{width:100%;max-width:100%;max-height:94dvh;margin:auto 0 0;border-radius:22px 22px 0 0}.native-dialog.filter-dialog{padding:30px 22px}.toolbar{flex-wrap:wrap}.search{flex-basis:100%}.filter-button{min-height:44px;padding:0 14px}.hero{min-height:470px}.hero-content{padding-bottom:60px}.hero p{font-size:15px}.hero h1{font-size:29px}.hero-label{font-size:10px}.hero-location{font-size:11px}.categories{flex-wrap:wrap}.categories button{padding:0 12px}.mobile-nav{padding-left:3px;padding-right:3px}.mobile-nav button{min-width:0;flex:1;padding:5px 4px}.card-footer span{font-size:14px}.detail-body{padding:22px}.route-actions{display:flex}.route-actions>*{flex:1;min-width:140px}.detail-body .area{align-items:flex-start}.photo-tag{font-size:13px}.sustainability h3{font-size:18px}.sustainability p:last-child{font-size:14px}.sustainability .eyebrow{font-size:10px}.contact-actions{align-items:stretch;flex-direction:column}.contact-actions a{justify-content:center}.large .mobile-nav button{font-size:12px}.large .hero{min-height:500px}.large .hero h1{font-size:32px}}
 @media(forced-colors:active){button,a,input{forced-color-adjust:auto}.status,.notice,.save,.primary{border:1px solid CanvasText}.hero-shade{background:Canvas}.hero-content,.hero h1 em,.hero p{color:CanvasText}.place-marker span{border:2px solid CanvasText;background:Canvas;color:CanvasText}}
 .card-heading{margin:0}.card-footer .card-summary{display:block}.card-summary small{display:block;font-size:12px;color:#4b5b50;margin-bottom:4px}.native-dialog .close{min-width:44px;min-height:44px}.detail-body .source{font-size:14px;min-height:44px}.desktop-nav button{font-size:16px}.access-button{font-size:14px}.pref-row small{font-size:14px}.large .card-summary small{font-size:16px}
+
+/* Formulário demonstrativo de avaliação colaborativa */
+.review-section{border-top:1px solid var(--border);margin-top:30px;padding-top:24px}
+.review-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.review-heading h3{margin:5px 0 0;display:flex;align-items:center;gap:9px}
+.demo-tag{font-size:12px;font-weight:700;color:#315b45;background:#e8f0e5;border-radius:20px;padding:7px 11px}
+.review-section>p{font-size:15px;line-height:1.65;color:var(--muted)}
+.review-form{margin-top:20px}
+.review-form fieldset{border:0;padding:0;margin:0 0 20px}
+.review-form legend{font-weight:700;font-size:16px;margin-bottom:5px}
+.review-hint{font-size:13px;color:var(--muted);line-height:1.5;margin:0 0 12px}
+.rating-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
+.rating-row>span{font-size:14px;font-weight:600}
+.rating-options{display:flex;gap:3px;flex-shrink:0}
+.rating-star{border:0;background:transparent;color:#a5a99b;min-width:34px;min-height:40px;padding:5px;display:grid;place-items:center}
+.rating-star.chosen,.rating-star:has(~ .chosen){color:#c58b25}
+.review-label{display:block;font-size:14px;font-weight:700;margin:16px 0 7px}
+.review-input,.review-textarea{width:100%;border:1px solid var(--border);border-radius:10px;padding:12px;font:inherit;font-size:15px;color:var(--green);background:#fff;min-height:46px}
+.review-textarea{resize:vertical;line-height:1.6}
+.review-submit{margin-top:18px;width:100%;justify-content:center}
+.review-submit:disabled{opacity:.48;cursor:not-allowed}
+.review-success{display:flex;gap:12px;align-items:flex-start;background:#e9f2e8;color:#214c35;border:1px solid #bfd3bd;border-radius:12px;padding:16px;margin-top:18px}
+.review-success p{font-size:13px;line-height:1.5;margin:5px 0 0}
+.review-preview{margin-top:16px;padding:16px;border:1px solid var(--border);border-radius:12px;background:#fbfaf5}
+.review-preview>strong{display:block;margin-bottom:10px}
+.review-preview>div{display:flex;justify-content:space-between;gap:10px;padding:7px 0;font-size:14px}
+.review-preview small{display:block;margin-top:9px;color:var(--muted)}
+.review-preview p{font-size:14px;line-height:1.6}
+.review-preview button{margin-top:8px}
+@media(max-width:600px){.rating-row{align-items:flex-start;flex-direction:column;gap:5px}.rating-options{width:100%;justify-content:flex-start}.rating-star{min-width:42px;min-height:44px}.review-heading h3{font-size:20px}.demo-tag{font-size:11px}}
